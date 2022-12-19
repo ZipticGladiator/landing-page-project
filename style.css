@@ -6,6 +6,7 @@ body {
     flex-direction: column;
 }
 
+/* Section 1 */
 .section1 {
     color: white;
     background-color: #1f2937;
@@ -43,12 +44,15 @@ ul.nav-links {
     gap: 30px;
     list-style-type: none;
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 div.header-logo {
     display: flex;
     width: 50%;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .container1 {
@@ -61,3 +65,40 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.image-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: darkgray;
+  color: white;
+}
+
+.section1-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    gap: 20px;
+}
+.container1 h1 {
+  font-size: 48px;  
+  font-weight: extra-bold;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.container1 h2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container1 button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 12px;
+}
+/* Section 2 */
